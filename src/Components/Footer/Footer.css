@@ -1,0 +1,142 @@
+.footer {
+  margin-top: -2px;
+}
+.subscribe {
+  background: #171819;
+}
+.sub__content {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0;
+  align-items: center;
+}
+.sub__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 1.846154px;
+  color: #FFFFFF;
+}
+.loader {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.1rem;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 1.846154px;
+  color: #FFFFFF;
+}
+.sub__form {
+  display: flex;
+  align-items: center;
+}
+.sub__email {
+  height: 40px;
+  border: 1px solid #000;
+  border-right: none;
+  background: #fff;
+  padding: 0 0 0 20px;
+  outline: none;
+}
+.sub__btn {
+  border: 1px solid #000;
+  border-left: none;
+  height: 40px;
+  border-radius: 0;
+}
+.footer-info {
+  background: #141A20;
+}
+.footer-info__content {
+  padding: 50px 0;
+  display: grid;
+  grid-template-columns: 3fr 1fr 2fr 2fr;
+  gap: 3rem;
+}
+.footer__title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.846154px;
+  color: #FFFFFF;
+  padding-bottom: 15px;
+}
+.company__logo {
+  padding: 5px 0 15px;
+  cursor: pointer;
+}
+.company__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 19px;
+  letter-spacing: 0.85px;
+  color: rgb(223, 223, 223);
+
+}
+.footer__links {
+  display: flex;
+  flex-direction: column;
+}
+.footer__link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: 0.846154px;
+  color: rgb(223, 223, 223);
+}
+.footer__link:hover {
+  color: #732891;
+}
+.footer__link:active {
+  color: #398bb4;
+}
+.address {
+  padding: 0 30px 0 0;
+}
+.address__name, .address__number, .address__email {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 0.846154px;
+  color: rgb(223, 223, 223);
+}
+.address__number {
+  padding: 15px 0;
+}
+.address__email {
+  cursor: pointer;
+}
+.blue-email {
+  color: rgb(35, 35, 245);
+  font-weight: bold;
+}
+.socials {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 30px 0;
+}
+.social__link {
+  color: #fff;
+  width: 55px;
+}
+.footer-bottom {
+  background: #171819;
+  padding: 25px 0;
+  text-align: center;
+}
+.footer-bottom__title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 15px;
+  letter-spacing: 0.846154px;
+  color: #FFFFFF;
+}

@@ -1,0 +1,57 @@
+.contact {
+  padding: 100px 0 150px;
+  background: #fff;
+}
+.contact__content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 5rem;
+}
+.contact-advice {
+  display: block;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  padding: 30px;
+}
+.contact__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: 2.30625px;
+  color: #48555B;
+  padding: 0 0 20px;
+}
+.advice__form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+.advice__input {
+  padding: 0 15px;
+  outline: none;
+}
+.advice__btn {
+  padding: 15px 70px;
+  margin: auto;
+}
+.contact-address {
+  display: block;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  padding: 30px;
+}
+.contact-address__name, .contact-address__number, .contact-address__email {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.846154px;
+  color: rgb(0, 0, 0);
+  padding: 15px 0;
+}
+.contact-address__email {
+  cursor: pointer;
+  color: blue;
+}

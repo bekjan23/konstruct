@@ -1,0 +1,78 @@
+.middle {
+  padding: 100px 0 100px;
+}
+.middle__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 25px;
+  letter-spacing: 2.30625px;
+  color: #48555B;
+  text-align: center;
+}
+.middle__content {
+  padding: 50px 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+.middle__info {
+  max-width: 401px;
+}
+.middle__name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.1875px;
+  color: #48555B;
+}
+.blue {
+  color: blue;
+  cursor: pointer;
+  text-decoration: none;
+}
+.middle__text {
+  padding: 25px 0 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 23px;
+  letter-spacing: 0.1875px;
+  color: #48555B;
+}
+.middle__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  padding-left: 50px;
+}
+.middle__card {
+  min-height: 30vh;
+  min-width: 20vh;
+  padding: 15px;
+  cursor: pointer;
+}
+.middle__card__title {
+  margin: 25px auto;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 44px;
+  line-height: 50px;
+  letter-spacing: 0.1875px;
+  color: #FFFFFF;
+  text-align: left;
+}
+.card__title {
+  text-align: left;
+  max-width: 50px;
+  margin-left: 2px;
+}
+.card-1 {
+  background: url('../../img/middle-1.jpg') 0 0 / cover, no-repeat;
+}
+.card-2 {
+  background: url('../../img/middle-2.jpg') 0 0 / cover, no-repeat;
+}
+.card-3 {
+  background: url('../../img/middle-3.jpg') 0 0 / cover, no-repeat;
+}

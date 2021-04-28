@@ -1,0 +1,37 @@
+.top {
+  background: url('../../img/bgbg.jpg') 0 0 / cover, no-repeat;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  z-index: 2;
+  position: relative;
+}
+.top__nav {
+  background: rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(20px);
+}
+.nav__content {
+  max-width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0;
+  margin: 0 auto;
+  font-family: Open Sans;
+}
+.header__logo {
+  cursor: pointer;
+}
+.nav__link {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 16px;
+  letter-spacing: 1.09091px;
+  text-decoration: none;
+  color: #8f979b;
+  padding: 0 18px;
+}
+.nav__link:hover {
+  color: #732891;
+}
+.nav__link:active {
+  color: #398bb4;
+}

@@ -1,0 +1,17 @@
+.section {
+  background: url('../../img/section-bottom.jpg') 0 0 / cover, no-repeat;
+  min-height: 70vh;
+  text-align: center;
+  border: none;
+}
+.section__title {
+  padding: 150px 0 20px;
+  max-width: 350px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0.15px;
+  color: #48555B;
+  margin: 0 auto;
+}

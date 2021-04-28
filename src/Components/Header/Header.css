@@ -1,0 +1,37 @@
+.header {
+  background: url('../../img/bgbg.jpg') 0 0 / cover, no-repeat;
+  min-height: 100vh;
+  margin-top: -60px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0 0 50px;
+}
+.header__info {
+  font-family: 'Open Sans';
+  text-align: center;
+}
+.header__title {
+  font-size: 60px;
+  line-height: 70px;
+  text-align: center;
+  letter-spacing: 5.70937px;
+  color: #FFFFFF;
+}
+.header__text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+  letter-spacing: 1.70937px;
+}
+.header__scroll {
+  padding: 320px 0 50px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 3.7px;
+  color: #FFFFFF;
+}
